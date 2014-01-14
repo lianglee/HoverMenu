@@ -12,6 +12,10 @@
 		<type>elgg_version</type>
 		<version>2012041801</version>
 	</requires>
+	<conflicts>
+		<type>plugin</type>
+		<name>lazy_hover</name>
+	</conflicts>
 	<admin_interface>simple</admin_interface>
 	<activate_on_install>false</activate_on_install>
 </plugin_manifest>
